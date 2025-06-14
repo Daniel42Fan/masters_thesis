@@ -1,0 +1,17 @@
+To Do:
+- (Delta in random Hamiltonian does nothing. maybe change filename or so)
+- (convert all normalized energies of XXZ model into absolute values)
+
+- change plot title accordingly for different Deltas
+- in the energy plots, investigate the maps that produces energies larger than the energy 
+	for E_N and look at their QR decomposition.
+
+- write 1-2 pages in theory!!!!!
+
+Done:
+- convert all normalized energies of random Hamiltonians into absolute values
+- plot energies with all chis in one plot for random Hamiltonians
+	- make sure to add dE in title as well
+- 25.01.24
+	- plot N=4 and N=5 energy as vertical lines into plot
+	- N=5 as horizontal line as well.

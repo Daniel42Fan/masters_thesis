@@ -1,0 +1,22 @@
+Error with seed 6.
+Message SolverError("Solver 'MOSEK' failed. Try another solver, or solve with verbose=True for more information.").
+Error with seed 14.
+Message SolverError("Solver 'MOSEK' failed. Try another solver, or solve with verbose=True for more information.").
+Error with seed 16.
+Message SolverError("Solver 'MOSEK' failed. Try another solver, or solve with verbose=True for more information.").
+Error with seed 25.
+Message SolverError("Solver 'MOSEK' failed. Try another solver, or solve with verbose=True for more information.").
+Error with seed 32.
+Message SolverError("Solver 'MOSEK' failed. Try another solver, or solve with verbose=True for more information.").
+Error with seed 46.
+Message SolverError("Solver 'MOSEK' failed. Try another solver, or solve with verbose=True for more information.").
+Error with seed 59.
+Message SolverError("Solver 'MOSEK' failed. Try another solver, or solve with verbose=True for more information.").
+Error with seed 61.
+Message SolverError("Solver 'MOSEK' failed. Try another solver, or solve with verbose=True for more information.").
+Error with seed 69.
+Message SolverError("Solver 'MOSEK' failed. Try another solver, or solve with verbose=True for more information.").
+Error with seed 72.
+Message SolverError("Solver 'MOSEK' failed. Try another solver, or solve with verbose=True for more information.").
+Error with seed 76.
+Message SolverError("Solver 'MOSEK' failed. Try another solver, or solve with verbose=True for more information.").

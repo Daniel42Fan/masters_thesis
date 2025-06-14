@@ -1,0 +1,2 @@
+Error with seed 88.
+Message SolverError("Solver 'MOSEK' failed. Try another solver, or solve with verbose=True for more information.").
