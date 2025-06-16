@@ -1,0 +1,26 @@
+human readable sdp
+
+N = 3
+optimal value -0.33333312828878675
+
+N = 4
+optimal value -0.3266454919573434
+
+N=5
+optimal value -0.3236067977515239
+
+N=6
+optimal value -0.3219752785949248
+
+N=7
+optimal value -0.32099707970165964
+
+N = 8
+optimal value -0.32036442873834303
+
+
+
+
+with cg
+N = 4
+optimal value -0.3535528959279469
