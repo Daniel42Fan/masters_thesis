@@ -1,6 +1,6 @@
-'''
+"""
 just a playground to test some stuff
-'''
+"""
 
 import numpy as np
 from numpy import linalg as nLA
@@ -26,7 +26,7 @@ import calc_energies as ce
 import analyze_data as ad
 
 
-'''
+"""
 def add(a, b ,c):
     return a + b +c
 
@@ -39,14 +39,14 @@ def calc(func):
 
 print(calc(add))
 print(calc(subtract))
-'''
+"""
 N = 5
 chi = 1
 dim = 2
 Delta = 1
-H = ds.Build_H_XXZ_full(N-2, dim=dim, Delta=Delta)
-#print('H\n', H)
-'''
+H = ds.Build_H_XXZ_full(N - 2, dim=dim, Delta=Delta)
+# print('H\n', H)
+"""
 eigvals, eigvecs = ut.eigen(H, chi)
 eigvals2, eigvecs2 = sLA.eigh(H)
 
@@ -69,8 +69,8 @@ print('W.shape =', W.shape)
 W0 = eigvecs.T + 0.1*W
 print('W0', W0)
 
-'''
-'''
+"""
+"""
 Delta = 1
 N = 4
 chi = 1
@@ -97,8 +97,8 @@ for seed_ham in range(1,11):
     print('energy for {} ='.format(N), prob_N.value)
     print('energy difference =', prob_N_minus_1.value-prob_N.value)
     print('############################################################\n')
-'''
-'''
+"""
+"""
 N = 5
 Delta = 1
 print(ds.Build_H_XXZ_full(N-2, Delta=Delta).shape)
@@ -106,9 +106,9 @@ ham_rand = ds.Build_random_H(3)
 ham_rand_full = ds.Build_H_full(N-2, ham_rand)
 print(ham_rand.shape)
 print(ham_rand_full.shape)
-'''
+"""
 
-a = [4,7,2,9,1]
+a = [4, 7, 2, 9, 1]
 print(not a)
 
 
