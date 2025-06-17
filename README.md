@@ -13,9 +13,11 @@ With a gradient-based method, these lower bounds on the ground state energy were
 * [define_SDP.py](https://github.com/Daniel42Fan/masters_thesis/blob/main/define_SDP.py)/[define_SDP_cg.py](https://github.com/Daniel42Fan/masters_thesis/blob/main/define_SDP_cg.py): The problem of my thesis can be formulated as a [semidefinite program](https://en.wikipedia.org/wiki/Semidefinite_programming) (SDP). These modules define the SDP.
 * [solve_SDP.py](https://github.com/Daniel42Fan/masters_thesis/blob/main/solve_SDP.py)/[solve_SDP_cg.py](https://github.com/Daniel42Fan/masters_thesis/blob/main/solve_SDP_cg.py): These modules are used to solve the previously defined SDP.
 * [calc_energies.py](https://github.com/Daniel42Fan/masters_thesis/blob/main/calc_energies.py): Here, the lower bounds on the ground state energy are optimized based on different chosen parameters. The results are also saved.
+* [main.py](https://github.com/Daniel42Fan/masters_thesis/blob/main/main.py): Runs the optimization, once the paramerters are chosen accordingly.
 * [analyze_data.py](https://github.com/Daniel42Fan/masters_thesis/blob/main/analyze_data.py): Contains functions that extract and analyze the saved data.
+* [plot_data.py](https://github.com/Daniel42Fan/masters_thesis/blob/main/plot_data.py)/[thesis_plots.py](https://github.com/Daniel42Fan/masters_thesis/blob/main/thesis_plots.py): Contains plot routines to visualize the analyzed data for immediate investigation, as well as figures for the thesis itself. 
   
 ## Authors and acknowledgment
 My master's thesis was written at the University of Vienna under the supervision of Univ.-Prof. Dr. Norbert Schuch.
 
-Dr. Ilya Kull was immediate supervisor.
+Dr. Ilya Kull was my immediate supervisor.
