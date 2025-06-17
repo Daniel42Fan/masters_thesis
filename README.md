@@ -7,7 +7,7 @@ In more technical terms: lower bounds on the ground state energy of the many-bod
 Using a suggested [relaxation method](https://arxiv.org/abs/2212.03014), the constraints of the ground state problem were compressed by using coarse-graining maps to reduce the dimension of the problem.
 With a gradient-based method, these lower bounds on the ground state energy were optimized starting from randomly chosen coarse-graining maps.
 
-## Structure of code
+## Structure of my code
 * [utility.py](https://github.com/Daniel42Fan/masters_thesis/blob/main/utility.py): Contains utility functions.
 * [define_system.py](https://github.com/Daniel42Fan/masters_thesis/blob/main/define_system.py): Defines and builds physical systems where optimizations of the lower bounds on the ground state energy are carried out.
 * [define_SDP.py](https://github.com/Daniel42Fan/masters_thesis/blob/main/define_SDP.py)/[define_SDP_cg.py](https://github.com/Daniel42Fan/masters_thesis/blob/main/define_SDP_cg.py): The problem of my thesis can be formulated as a [semidefinite program](https://en.wikipedia.org/wiki/Semidefinite_programming) (SDP). These modules define the SDP.
